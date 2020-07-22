@@ -1,0 +1,374 @@
+/*
+*
+* Author: Emon Khan
+* Author URI: https://facebook.com/emonkhan2020
+* Version: 1.0.0
+* Description: This is personal site.
+*
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Default CSS */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+::selection{
+    color: #fff;
+    background: #0078D7;
+}
+/* Reuseable CSS */
+.text-black{
+    color: #010101;
+}
+.text-gray{
+    color: #767676;
+}
+.custom-bg{
+    background: #F7F9FF;
+}
+.section-title-start{
+    text-align: center;
+}
+.section-title-start h2{
+    font-size: 40px;
+}
+.section-title-start h4{
+    color: #767676;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* === Header area start === */
+header nav .logo {
+	color: #fff;
+	background: #6278DF;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+header .navbar-brand {
+	font-size: 25px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+header .navbar-brand:hover{
+    color: #cccccc;
+}
+header .navbar-nav .nav-item{
+    padding: 0 10px;
+}
+header .navbar-nav .nav-link, .dropdown-menu .dropdown-item{
+    color: #010101 !important;
+}
+header .navbar-nav .nav-link:hover, .dropdown-menu .dropdown-item:hover{
+    color: #6278df !important;
+}
+header .dropdown-menu{
+    border: none;
+    padding-bottom: 0;
+}
+header .dropdown-menu li{
+    border-bottom: 1px solid #ddd;
+}
+header .dropdown-menu li:last-child{
+    border: none;
+}
+header .btn-outline-primary{
+    color: #6278df;
+}
+header .btn-outline-primary:hover{
+    background: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+/* === Header area end === */
+
+
+/* === Hero area start === */
+.hero-area-start{
+    background: linear-gradient(#00000080, #00000080), url(./img/mbr-10.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    padding: 160px 0;
+    margin-top: 65px;
+}
+.hero-text h4{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.hero-text h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-form-start {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.hero-form-start .btn-success {
+	background: #5BA533;
+	font-weight: 500;
+	padding: 8px 77px;
+    border: 2px solid transparent;
+    transition: .2s ease-in-out;
+}
+.hero-form-start .btn-success:hover{
+    background: #fff;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+/* === Hero area end === */
+
+
+/* === Feature area start === */
+.feature-item h2{
+    font-size: 57px;
+}
+.feature-item span{
+    font-size: 22px;
+    color: #767676;
+}
+/* === Feature area end === */
+
+/* === Goals area start === */
+.goals-content h2{
+    font-size: 40px;
+}
+.goals-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #232323;
+    margin-top: 20px;
+}
+/* === Goals area end === */
+
+
+/* === About area start === */
+.about-content-start{}
+.about-item{
+    background: #fff;
+    box-shadow: 3px 3px 27px -3px #6279df80;
+}
+.about-item:hover{
+    box-shadow: 3px 3px 27px -3px #6279df;
+    transform: translateY(-10px);
+    transition: .3s ease-in-out;
+}
+.about-item .about-img{
+    width: 40%;
+    overflow: hidden;
+}
+.about-item .about-img img {
+	height: 256px;
+	position: relative;
+	left: -81px;
+}
+.about-img .fitness-img{
+    left: 0 !important;
+}
+.about-item .about-text{
+    width: 60%;
+    padding: 15px;
+}
+.about-text h2{
+    font-size: 20px;
+}
+.about-text p{
+    font-weight: 300;
+}
+/* === About area end === */
+
+/* === Portfolio area start === */
+.portfolio-item img:hover{
+    opacity: .6;
+}
+/* === Portfolio area end === */
+
+
+/* Pricing table area start */
+.price-table{}
+.price-table-item .card{
+    padding: 40px 25px;
+    border: none;
+    box-shadow: 3px 3px 17px -3px #6279df;
+}
+.price-table-item .card-body h2{
+    font-size: 40px;
+}
+.price-table-item .card-body h4{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.price-table-item .card-body ul li{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.price-table-item .card-body ul li i{
+    color: #6278DF;
+    margin-right: 10px;
+}
+.price-table-item .card-body .btn-primary {
+	background: #fff;
+	color: #6279df;
+	font-weight: 600;
+	border: none;
+	box-shadow: 3px 3px 27px -3px #6279df;
+    margin-top: 30px;
+    transition: .3s ease-in-out;
+}
+  /* hover area */
+.price-table-item:hover .card-body .btn-primary{
+    background:  #6279df;
+    color: #fff;
+}
+.price-table .card-body .btn-primary:hover{
+    background: #000;
+    color: #fff;
+}
+/* Pricing table area end */
+
+/* Testimonial area start */
+.testimonial-item i{
+    opacity: .8;
+    color: #F0F0F0;
+    display: block;
+    margin-bottom: 10px;
+}
+.testimonial-item p{
+    margin-bottom: 20px;
+}
+.testimonial-item img{
+    width: 80px;
+}
+.testimonial-item h4{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+/* Testimonial area end */
+
+/* Team member area start */
+.team-member-start{
+    margin-top: 100px;
+}
+.team-member .card-body {
+	padding: 70px 15px 30px;
+	position: relative;
+	box-shadow: 1px 1px 18px -7px #6278df;
+}
+.team-member .card-body img {
+	position: absolute;
+	top: -50px;
+	left: 20px;
+	width: 100px;
+}
+.team-member .card-body h2{
+    font-size: 25px;
+}
+.team-member .card-body h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+.team-member .card-body p{
+    margin: 20px 0;
+}
+.team-member .btn-secondary {
+	font-weight: 500;
+	background: #fff;
+	color: #465052;
+	border: none;
+	box-shadow: 1px 1px 9px -3px #282f51;
+}
+.team-member .btn-secondary:hover{
+    color: #fff;
+    background: #465052;
+}
+/* Team member area end */
+
+
+/* Contact area start */
+.contact-form{
+    background: #fff;
+    padding: 30px;
+	box-shadow: 3px 3px 27px -3px #6279df;
+}
+.contact-form .btn-info{
+    background: #6278DF;
+    border: 2px solid #6278DF;
+    font-weight: 500;
+}
+.contact-form .btn-info:hover{
+    background: #fff;
+    color: #6278DF;
+    box-shadow: 3px 3px 27px -3px #6279df;
+}
+/* Contact area end */
+
+
+/* App area start */
+.app-area-start{
+    margin-top: 80px;;
+}
+.app-button .btn{
+    box-shadow: 3px 3px 27px -3px #28A745;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    margin-bottom: 50px;
+}
+/* App area end */
+
+
+/* Footer area start */
+footer{
+    padding: 10px 0;
+    background: #F7F9FF;
+}
+footer a{
+    text-decoration: none;
+}
+/* Footer area end */
+
+
+/* Responsive area start */
+@media (max-width: 767.9px){
+    .hero-text h4{
+        font-size: 18px;
+    }
+    .hero-text h1{
+        font-size: 25px;
+    }
+    .feature-item h2{
+        font-size: 25px;
+    }
+    .feature-item span{
+        font-size: 18px;
+    }
+    .goals-content h2{
+        font-size: 25px;
+    }
+    .section-title-start h2 {
+        font-size: 25px;
+    }
+    .section-title-start h4{
+        font-size: 18px;
+    }
+    .price-table-item .card-body h2{
+        font-size: 25px;
+    }
+    .price-table-item .card-body ul li{
+        font-size: 18px;
+    }
+    .team-member{
+        margin-bottom: 20px;
+    }
+    footer p{
+        font-size: 16px !important;
+    }
+}
+/* Responsive area end */
